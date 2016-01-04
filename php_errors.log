@@ -1,0 +1,24 @@
+[04-Jan-2016 07:21:39 UTC] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/ubuntu/workspace/storage/logs/laravel-2016-01-04.log" could not be opened: failed to open stream: Permission denied' in /home/ubuntu/workspace/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/ubuntu/workspace/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/ubuntu/workspace/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/ubuntu/workspace/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, 'exception 'Unex...', Array)
+#4 /home/ubuntu/workspace/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(47): Monolog\Logger->error('exception 'Unex...')
+ in /home/ubuntu/workspace/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 87
+[04-Jan-2016 07:21:44 UTC] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/ubuntu/workspace/storage/logs/laravel-2016-01-04.log" could not be opened: failed to open stream: Permission denied' in /home/ubuntu/workspace/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/ubuntu/workspace/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/ubuntu/workspace/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/ubuntu/workspace/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, 'exception 'Unex...', Array)
+#4 /home/ubuntu/workspace/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(47): Monolog\Logger->error('exception 'Unex...')
+ in /home/ubuntu/workspace/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 87
+[04-Jan-2016 07:22:13 UTC] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/ubuntu/workspace/storage/logs/laravel-2016-01-04.log" could not be opened: failed to open stream: Permission denied' in /home/ubuntu/workspace/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/ubuntu/workspace/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/ubuntu/workspace/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/ubuntu/workspace/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, 'exception 'Unex...', Array)
+#4 /home/ubuntu/workspace/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(47): Monolog\Logger->error('exception 'Unex...')
+ in /home/ubuntu/workspace/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 87
