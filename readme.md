@@ -1,2 +1,2 @@
-# simple Blog applicatoin in laravel
+# simple Blog application in laravel
 ------------
